@@ -1,0 +1,15 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-gallery{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+button{
+  align-items: center;
+  margin-left: 600px;
+}

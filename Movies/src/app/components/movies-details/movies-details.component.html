@@ -1,0 +1,14 @@
+<div class="main">
+  <h1>
+    Welcome to Hall of Fame..
+  </h1>
+</div>
+  <button (click)="getMovie()" >Click Here</button>
+<div class="movie-gallery">
+<div *ngFor= "let movie of movie">
+  <a href="movie.href" targer="_blank">
+    <img [src]="movie.thumbnailUrl" alt="" width="250" height="200">
+  </a>
+  <div class="content"> {{movie.title}} </div>
+</div>
+</div>
